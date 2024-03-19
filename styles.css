@@ -1,0 +1,63 @@
+body{
+    background-color: #edf9ed;
+}
+
+.navbar{
+    background-color: #edf9ed;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    max-width:150px ;
+    max-height: fit-content;
+}
+li{
+    display:inline-block;
+    list-style: none;
+}
+li a{
+    color: #4d8a4d;
+    font-size: 30px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+img.Banner{
+    width: 100%;
+    height: 17vh;
+}
+
+p.info{
+    text-align: center; 
+}
+
+img.teammembers{
+    border-radius: 50%;
+    width: 100px;
+}
+div.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 75px;
+    
+}
+
+h3.role{
+     background-color: #65a765;
+     color: white;
+     width: 250px;
+     border-radius: 4px;
+     
+     
+}
+div.members-role{
+    text-align: center;
+    color: #4CAF50;
+}
